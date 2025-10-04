@@ -25,10 +25,11 @@ Welcome to my **ALX Deep Dive into JavaScript** learning project! In this projec
 ## Clone Repository
 
 Clone the repository
+Happy coding!
 
 ```bash
 git clone https://github.com/GEM-7/Form-Creation-Validation.git
 cd Form-Creation-Validation
 ---
 
-Happy coding!
+
