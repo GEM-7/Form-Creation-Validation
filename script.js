@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         else {
             const errorHtml = messages.join('<br>');
-            feedback.Div.innerHTML = ' 🛑**Errors:**<br>' + errorHtml;
+            feedbackDiv.innerHTML = '🛑 **Validation Errors:**<br>' + errorHtml;
             feedback.Div.style.color = '#dc3545';
         }
     })
