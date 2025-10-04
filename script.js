@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         feedbackDiv.style.display = 'block';
-        
+
         if (isValid) {
             feedback.Div.textContent = 'Registration successful!';
             feedback.Div.style.color = '#28a745';
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         else {
             const errorHtml = messages.join('<br>');
             feedbackDiv.innerHTML = '🛑 **Validation Errors:**<br>' + errorHtml;
-            feedback.Div.style.color = '#dc3545';
+            feedbackDiv.style.color = '#dc3545'; 
         }
     })
 
